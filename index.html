@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Profile</a></li>
+                <li><a href="#">Achievement</a></li>
+                <li><a href="#">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome-section">
+            <h1>Hi Harfi, Welcome To Website</h1>
+            <p>Ini adalah website latihan pertama</p>
+        </section>
+
+        <section class="facilitation">
+            <h2>Our Facilitation</h2>
+            <div class="facilitation-items">
+                <div class="item">
+                    <img src="icon1.png" alt="Professional Teacher" class="circle-icon">
+                    <p>Professional Teacher</p>
+                </div>
+                <div class="item">
+                    <img src="icon2.png" alt="Sport Field" class="circle-icon">
+                    <p>Sport Field</p>
+                </div>
+                <div class="item">
+                    <img src="icon3.png" alt="Classroom" class="circle-icon">
+                    <p>Classroom</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Message Us</h2>
+            <form id="messageForm">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="tanggal-lahir">Tanggal Lahir</label>
+                <input type="date" id="tanggal-lahir" name="tanggal-lahir" required>
+
+                <label for="jenis-kelamin">Jenis Kelamin</label>
+                <select id="jenis-kelamin" name="jenis-kelamin" required>
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created By ikky</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
